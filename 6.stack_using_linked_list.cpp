@@ -49,8 +49,8 @@ int main ()
             {  
                 cout<<"Please Enter valid choice ";  
             }   
-    };  
-}  
+    } 
+  }  
 }  
 void push ()  
 {  
