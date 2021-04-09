@@ -19,7 +19,7 @@ int main ()
     cout<<"\n----------------------------------------------\n";  
     while(choice != 4)  
     {  
-        cout<<"\n\nChose one from the below options...\n";  
+        cout<<"\n\nChoose one from the below options...\n";  
         cout<<"\n1.Push\n2.Pop\n3.Show\n4.Exit";  
         cout<<"\n Enter your choice \n";        
         cin>>choice;  
