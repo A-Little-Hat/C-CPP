@@ -14,20 +14,20 @@ void lastinsert();
 void randominsert();
 void display();
 
-void main()
+int main()
 {
     int ch = 0;
     while (ch != 5)
     {
-        cout << "\n\n*********Main Menu*********\n";
-        cout << "\nChoose one option from the following list ...\n";
-        cout << "\n===============================================\n";
+        cout << "\n*********Main Menu*********";
+        cout << "\nChoose one option from the following list ...";
+        cout << "\n===============================================";
         cout << "\n1. Insert at Beginning";
         cout << "\n2. Insert at End";
         cout << "\n3. Insert in Desired Location";
         cout << "\n4. Display";
         cout << "\n5. Exit";
-        cout << "\n\n Enter Your Choich : ";
+        cout << "\n Enter Your Choich : ";
         cin >> ch;
         switch (ch)
         {
@@ -52,6 +52,7 @@ void main()
             break;
         }
     }
+    return 0;
 }
 void beginsert()
 {
