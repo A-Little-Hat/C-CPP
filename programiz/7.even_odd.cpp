@@ -8,7 +8,7 @@ bool isEven(int x){
 }
 int main(){
     int a;
-    cout<<"enter two number : ";
+    cout<<"enter a number : ";
     cin>>a;
     isEven(a)?cout<<"\n Even":cout<<"\n Odd";
     return 0;
